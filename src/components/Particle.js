@@ -8,7 +8,7 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 160,
+            value: 300,
             density: {
               enable: true,
               value_area: 1500,
@@ -35,6 +35,10 @@ function Particle() {
         },
         interactivity: {
           events: {
+            onhover: {
+              enable: true, // Enable hover effect
+              mode: "grab", // Options: "grab", "bubble", "repulse", "push", etc.
+            },
             onclick: {
               enable: true,
               mode: "push",
