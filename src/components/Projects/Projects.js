@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import blogs from "../../Assets/Projects/blogs.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import task from "../../Assets/Projects/task.png";
 import smartface from "../../Assets/Projects/smartface.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import robot from "../../Assets/Projects/robot.png";
 import job from "../../Assets/Projects/job.png";
 
 function Projects() {
@@ -74,23 +74,33 @@ Stay organized and boost productivity! 🚀"
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={blogs}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Blogs"
+              description="Blogs is a modern platform for exploring and reading blogs. Users can search through all blogs and click to view specific ones easily.
+🔹 Key Features:
+Blog Search – Quickly find blogs by keywords.
+Easy Navigation – Click to view full blog content.
+Responsive Design – Converted from Figma to clean, functional code.
+Built with Next.js, Blogs offers a smooth and engaging reading experience. 🚀"
+              ghLink="https://github.com/Samuels5/g55app"
+              demoLink="https://g55app-samuel-mulugetas-projects.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={robot}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Robofriends"
+              description="Robofriends is a fun platform for exploring unique robot profiles. Users can search robots by name, with each robot generated using a third-party API for new images.
+🔹 Key Features:
+Robot Search – Find robots by name instantly.
+Dynamic Images – API-generated unique robot avatars.
+Responsive Design – Smooth user experience.
+Built with React.js 🚀"
+              ghLink="https://github.com/Samuels5/robofriends"
+              demoLink="https://samuels5.github.io/robofriends/"
             />
           </Col>
 
@@ -98,11 +108,15 @@ Stay organized and boost productivity! 🚀"
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
+              title="S5_bot1"
+              description="S5_bot1 is a Telegram bot that lets users chat with Gemini AI directly in Telegram.
+🔹 Key Features:
+Real-Time Chat – Talk with Gemini AI seamlessly.
+User-Friendly – Simple and intuitive Telegram interface.
+Fast & Secure – Powered by Python for reliable performance.
+Stay connected and enjoy smart conversations with S5_bot1! 🤖💬"
+              ghLink="https://github.com/Samuels5/S5_bot1"
+              demoLink="https://t.me/Samis5_bot"     
             />
           </Col>
         </Row>
