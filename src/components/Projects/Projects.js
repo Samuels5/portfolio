@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import blogs from "../../Assets/Projects/blogs.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import bot from "../../Assets/Projects/bot.png";
 import task from "../../Assets/Projects/task.png";
 import smartface from "../../Assets/Projects/smartface.png";
 import robot from "../../Assets/Projects/robot.png";
@@ -106,7 +106,7 @@ Built with React.js 🚀"
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={bot}
               isBlog={false}
               title="S5_bot1"
               description="S5_bot1 is a Telegram bot that lets users chat with Gemini AI directly in Telegram.
@@ -116,7 +116,7 @@ User-Friendly – Simple and intuitive Telegram interface.
 Fast & Secure – Powered by Python for reliable performance.
 Stay connected and enjoy smart conversations with S5_bot1! 🤖💬"
               ghLink="https://github.com/Samuels5/S5_bot1"
-              demoLink="https://t.me/Samis5_bot"     
+              demoLink="https://t.me/Samis5_bot"
             />
           </Col>
         </Row>
